@@ -1,0 +1,358 @@
+/*NAV BAR*/
+.navbar .navbar-nav .nav-link {
+    color: #A50;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #582719;
+}
+
+.nav-item {
+    color: #A50 !important;
+}
+
+.sm-icons {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 960px) {
+    .sm-icons .nav-item {
+        padding-right: 1em;
+       
+    }
+}
+.icon2{
+    width: 100%;
+    
+}
+
+body,
+.main{
+    background-color: #464033;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.bg {
+    /* The image used */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    vertical-align: middle;
+   
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    height: 3cm;
+}
+.about img {
+    margin-left: 25%;
+    margin-top: -13%;
+    height: 7cm;
+mix-blend-mode: multiply;
+}
+
+.card {
+    color: white;
+    margin-left: 20em;
+    width: 31.7rem;
+}
+/* video*/
+
+
+/*PIZZA CARDS*/
+
+.col-4 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 2em;
+}
+
+/*CONTACT*/
+.contact {
+    background-image: url(../images/background/bg/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Gabriela', serif;
+}
+
+input[type=text],
+input[type=email],
+#comment {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+#comment {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#nam {
+    width: 50%;
+    margin-left: 41%;
+    margin-right: 25px;
+    margin-bottom: 5px;
+
+}
+
+#em {
+    width: 50%;
+    margin-left: 9%;
+    margin-bottom: 5px;
+}
+
+button {
+    background: transparent !important;
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+
+    text-align: center;
+
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.footer h1 {
+
+
+    line-height: 51px;
+    vertical-align: middle;
+    font-size: medium;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+
+}
+
+.footer text {
+    color: #582719;
+}
+
+.menuContainer {
+    background-image: url(../images/background/bg/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 89vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 2em !important;
+    margin-top: 2em !important;
+
+}
+
+.menu h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+.orderContainer {
+    background-image: url(../images/background/bg/order.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 68vh;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3em !important;
+
+}
+
+.order h1 {
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.order label {
+    font-weight: bold;
+
+}
+
+.order h2 {
+    font-weight: bold;
+    color: black;
+}
+
+.order p {
+    font-weight: bold;
+    color: black;
+}
+
+.about {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+    margin-top: 2em !important;
+    margin-bottom: 3em !important;
+
+}
+
+.about h1 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 2em !important;
+
+}
+
+.placeOrder {
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    padding-right: 30px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.pOrder {
+    background-color: #948473;
+
+}
+
+.form p {
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btnContinue {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    padding-right: 30px;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.btnContinue :hover {
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.confirmOrder,
+.getDelivery {
+    display: none;
+}
+
+input[type=checkbox],
+input[type=text],
+input[type=tel],
+input[type=number],
+select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.form {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formContainer {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.order-total {
+    display: none;
+}
+
+.confirm-order {
+    border: 6px solid #948473;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-buttons {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.thead {
+    background-color: #deafa7;
+    color: aliceblue;
+}
+
+.current-order {
+    background-color: #e4dedf;
+    color: #deafa7;
+}
+
+.current-order :hover {
+    background-color: #798486;
+}
