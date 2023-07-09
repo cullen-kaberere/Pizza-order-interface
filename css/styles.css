@@ -185,8 +185,8 @@ button {
     background-image: url(../images/background/bg/order.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 68vh;
+    background-position: center;
+    height: 45vh;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 3em !important;
@@ -344,13 +344,13 @@ select {
 }
 
 .thead {
-    background-color: #deafa7;
+    background-color: #597bca;
     color: aliceblue;
 }
 
 .current-order {
     background-color: #e4dedf;
-    color: #deafa7;
+    color: #597bca;
 }
 
 .current-order :hover {

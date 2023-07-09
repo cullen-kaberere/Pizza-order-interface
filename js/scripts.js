@@ -8,7 +8,7 @@ $(document).ready(function () {
         e.preventDefault();
         var name = $("#nam").val();
         //var name = $("input#nam").val();
-        alert("Hello " + name + ", we have received your message! Thank you for reaching out to us.");
+        alert("Hello " + name + ", we have received your message! Thank you for reaching out to Cullen's pizza.");
         //refresh page
         $('#contactform').trigger("reset");
     });
