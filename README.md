@@ -1,7 +1,7 @@
 # Delani Studio
 
 ## Authors
-- [iantheninja](https://github.com/cullen-kaberere)
+- [Cullen-kaberere](https://github.com/cullen-kaberere)
 
 ## Project setup instructions
 To start using this project use the following commands:
